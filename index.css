@@ -1,0 +1,52 @@
+body{
+    /* margin: 0; */
+    /* padding: 0; */
+    background-color:rgb(32, 81, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    height: 100vh;
+}
+
+h3{
+font-size: 40px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: rgb(10, 10, 10); 
+
+}
+
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+
+div span{
+    border: 5px solid rgb(24, 22, 22);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    /* color: red; */
+    font-size: 30px;
+    letter-spacing: 3px;
+
+}
+
+input{
+    width: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid green;
+    caret-color:red;
+    /* outline: none; */
+}
+
+input:focus{
+    outline: none;
+}
